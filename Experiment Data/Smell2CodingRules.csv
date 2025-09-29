@@ -1,0 +1,109 @@
+Implementation Smell,,
+Smell Name ,Coding Rule ,Tool
+Missing Default Case,Missing Switch Default,CheckStyle
+Inconsistent Naming Convention,"Local Variable Naming Convention / Local Variable Name
+Formal Parameter Naming Convention
+Method Naming Convention / Method Name
+Class Naming Convention
+GenericsNaming
+AbbreviationAsWordInName
+AbstractClassName
+CatchParameterName
+ConstantName
+IllegalIdentifierName","PMD / CheckStyle
+PMD
+PMD / CheckStyle
+PMD
+PMD
+CheckStyle
+CheckStyle
+CheckStyle
+CheckStyle
+CheckStyle"
+Complex Expression,"Simplify Boolean Expression
+Simplify Conditional
+Simplify Boolean Return
+Simplified Ternary","CheckStyle
+PMD
+PMD/CheckStyle
+PMD"
+Duplicate Entity ,"Redundant Import
+Redundant Modifier
+Copy Paste Detector","CheckStyle
+CheckStyle
+PMD"
+Misplaced Attributes,"Variable Declaration Usage Distance
+Declaration Order","CheckStyle
+CheckStyle"
+Improper Alignment,"Indentation
+FileTabCharacter
+NeedBraces
+UselessParatheses
+LeftCurly
+RightCurly
+ParenPad
+MethodParamPad","CheckStyle
+CheckStyle
+CheckStyle
+PMD
+CheckStyle
+CheckStyle
+CheckStyle
+CheckStyle"
+Incomplete Tasks ,Todo Comment,CheckStyle
+Long Statement ,Line Length,CheckStyle
+Long Method ,Method Length,CheckStyle
+Long Parameter List ,Excessive Parameter List,PMD
+Incomplete Conditional,Empty Control Statement,PMD
+Empty Catch Block,Empty Catch Block,PMD / CheckStyle
+Magic Number,Magic Number,CheckStyle
+Dead Code,"Unused Formal Parameter
+Unused Local Variables
+Unused Private Fields
+Unused Private Method
+Unused Imports","PMD
+PMD / CheckStyle
+PMD
+PMD
+CheckStyle"
+Redundant Modifier ,Redundant Modifier,CheckStyle
+Empty Block ,EmptyBlock,CheckStyle
+Wrong Resource Handling,Close Resource,PMD
+Unnecessary Memory Allocation,Avoid Instantiating Objects In Loops,PMD
+Incomplete Documentation,"Comment Required
+Comment Size
+Comment Content
+Javadoc Method
+Javadoc Type
+Missing Javadoc Package
+Javadoc Variable","PMD
+PMD
+PMD
+CheckStyle
+CheckStyle
+CheckStyle
+CheckStyle"
+,,
+Design Smell,,
+God Class,God Class,PMD
+Data Class,Data Class,PMD
+Large Class,"Too Many Methods
+Too Many Fields","PMD
+PMD"
+Law of Demeter,Law of Demeter,PMD
+High Coupling,"Coupling Between Objects
+Class Fan Out Complexity","PMD
+CheckStyle"
+Deficient Encapsulation,"Visibility Modifier
+Excessive Public Count","CheckStyle
+PMD"
+Leaky Encapsulation,"Final Parameters
+Final Class
+Hidden Field","CheckStyle
+CheckStyle
+CheckStyle"
+Utility Class ,"Use Utility Class
+Hide Utility Class Constructor","PMD
+CheckStyle"
+Cyclomatic Complexity,Cyclomatic Complexity,PMD
+Cognitive Complexity,Cognitive Complexity,PMD
